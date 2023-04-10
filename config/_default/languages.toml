@@ -1,0 +1,11 @@
+
+[en]
+  title = "Claris"
+  LanguageName = "English"
+  weight = 1
+
+[de]
+  title = "Claris" # just for the sake of showing this is possible
+  LanguageName = "Deutsch"
+  weight = 2
+

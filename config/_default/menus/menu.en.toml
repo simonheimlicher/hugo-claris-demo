@@ -1,0 +1,76 @@
+# Note: The logo / title is shown in the navigation bar and leads to the home page
+# [[main]]
+#   name = "Home"
+#   url = ""
+#   weight = -110
+
+[[main]]
+  name = "Blog"
+  url = "post/"
+  weight = -700
+
+[[main]]
+  name = "Technology"
+  url = "technology/"
+  weight = -500
+
+[[main]]
+  name = "Components"
+  url = "components/"
+  weight = -400
+
+[[main]]
+  name = "Books"
+  url = "books/"
+  weight = -300
+
+[[main]]
+  name = "About"
+  url = "about/"
+  weight = -200
+
+#  Submenus are done this way: parent -> identifier
+[[main]]
+  name = "Links"
+  identifier = "Links"
+  url = "links/"
+  weight = -100
+[[main]]
+  parent = "Links"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/"
+[[main]]
+  parent = "Links"
+  name = "Twitter"
+  url = "https://twitter.com/"
+
+# Follow links
+
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/#"
+[[social]]
+  name = "twitter"
+  weight = 2
+  url = "https://twitter.com/#"
+[[social]]
+  name = "linkedin"
+  weight = 3
+  url = "https://www.linkedin.com/in/#"
+[[social]]
+  name = "rss"
+  weight = 4
+  url = "index.xml"
+
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"

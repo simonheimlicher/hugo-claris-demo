@@ -1,0 +1,7 @@
+/public
+/output
+/cache
+/resources
+/data/claris/private
+.DS_Store
+.hugo_build.lock

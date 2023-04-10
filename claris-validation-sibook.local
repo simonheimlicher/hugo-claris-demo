@@ -1,0 +1,12 @@
+host=sibook.local
+theme=claris
+themesDir=$PWD/../..
+env=test
+project=$PWD
+bind=${host:=$env.$theme.local}
+sudo hugo server --themesDir=$themesDir --environment=$env --bind=$bind --disableLiveReload \
+--baseURL=/ --port=80 --appendPort=false \
+--templateMetricsHints --buildDrafts --disableFastRender --printPathWarnings --forceSyncStatic --cleanDestinationDir \
+--contentDir=$project/content \
+--cacheDir=$project/cache/serve/$env \
+--destination=$project/output/serve/$env
