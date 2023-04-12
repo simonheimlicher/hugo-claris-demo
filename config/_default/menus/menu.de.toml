@@ -1,28 +1,66 @@
-[[main]]
-  name = "Startseite"
-  url = ""
-  weight = -110
-
+# Note: The logo / title is shown in the navigation bar and leads to the home page
 # [[main]]
-#   name = "Arquivos"
-#   url = "post/rich-content/"
-#   weight = -109
+#   name = "Startseite"
+#   url = ""
+#   weight = -110
+
+[[main]]
+  name = "Blog"
+  url = "post/"
+  weight = -700
+
+[[main]]
+  name = "Komponenten"
+  url = "components/"
+  weight = -400
+
+[[main]]
+  name = "Über Hugo"
+  url = "about/"
+  weight = -200
 
 # Submenus are done this way: parent -> identifier
 [[main]]
   name = "Links"
   identifier = "Links"
-  weight = -108
+  url = "links/"
+  weight = -100
 [[main]]
   parent = "Links"
   name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  url = "https://www.linkedin.com/in/simonheimlicher"
 [[main]]
   parent = "Links"
   name = "Twitter"
-  url = "https://twitter.com/"
+  url = "https://twitter.com/simonheimlicher"
 
-[[main]]
-  name = "Über mich"
-  url = "about/"
-  weight = -107
+# Follow links
+
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/simonheimlicher/hugo-claris/"
+# [[social]]
+#   name = "twitter"
+#   weight = 2
+#   url = "https://twitter.com/#"
+# [[social]]
+#   name = "linkedin"
+#   weight = 3
+#   url = "https://www.linkedin.com/in/#"
+# [[social]]
+#   name = "rss"
+#   weight = 4
+#   url = "index.xml"
+
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"

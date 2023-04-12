@@ -1,6 +1,6 @@
 ---
-title: 'We Help Business Grow'
-button: 'Our Work'
+title: 'We help businesses to grow'
+button: 'Our work'
 weight: 1
 ---
 

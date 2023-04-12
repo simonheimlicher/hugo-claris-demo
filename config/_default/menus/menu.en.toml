@@ -10,26 +10,16 @@
   weight = -700
 
 [[main]]
-  name = "Technology"
-  url = "technology/"
-  weight = -500
-
-[[main]]
   name = "Components"
   url = "components/"
   weight = -400
-
-[[main]]
-  name = "Books"
-  url = "books/"
-  weight = -300
 
 [[main]]
   name = "About"
   url = "about/"
   weight = -200
 
-#  Submenus are done this way: parent -> identifier
+# Submenus are done this way: parent -> identifier
 [[main]]
   name = "Links"
   identifier = "Links"
@@ -38,11 +28,11 @@
 [[main]]
   parent = "Links"
   name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  url = "https://www.linkedin.com/in/simonheimlicher"
 [[main]]
   parent = "Links"
   name = "Twitter"
-  url = "https://twitter.com/"
+  url = "https://twitter.com/simonheimlicher"
 
 # Follow links
 
@@ -50,19 +40,19 @@
   name = "github"
   type = "social"
   weight = 1
-  url = "https://github.com/#"
-[[social]]
-  name = "twitter"
-  weight = 2
-  url = "https://twitter.com/#"
-[[social]]
-  name = "linkedin"
-  weight = 3
-  url = "https://www.linkedin.com/in/#"
-[[social]]
-  name = "rss"
-  weight = 4
-  url = "index.xml"
+  url = "https://github.com/simonheimlicher/hugo-claris/"
+# [[social]]
+#   name = "twitter"
+#   weight = 2
+#   url = "https://twitter.com/#"
+# [[social]]
+#   name = "linkedin"
+#   weight = 3
+#   url = "https://www.linkedin.com/in/#"
+# [[social]]
+#   name = "rss"
+#   weight = 4
+#   url = "index.xml"
 
 # name = "youtube"
 # url = "https://www.youtube.com/#"
