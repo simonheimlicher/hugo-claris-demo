@@ -2,6 +2,6 @@
 /output
 /cache
 /resources
-/data/claris/private
+/assets/data/claris/private
 .DS_Store
 .hugo_build.lock

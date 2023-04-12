@@ -1,3 +1,4 @@
+title = "Hugo Claris"
 baseURL = "/"  # Include trailing slash
 theme = "claris"
 DefaultContentLanguage = "en"
