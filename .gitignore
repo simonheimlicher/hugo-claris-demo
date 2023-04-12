@@ -2,6 +2,9 @@
 /output
 /cache
 /resources
+/layouts
+/static
 /assets/data/claris/private
+/assets/jsconfig.json
 .DS_Store
 .hugo_build.lock

@@ -4,7 +4,7 @@ baseURL = "/"  # Include trailing slash
 # Use Hugo theme Claris
 # IMPORTANT: We add the theme as a module, see below ([[module.imports]])
 # This means that we no longer specify it with parameter 'theme'
-# theme = "claris" # Do not use in parallel with [[module.imports]]
+theme = "claris" # Do not use in parallel with [[module.imports]]
 
 DefaultContentLanguage = "en"
 
@@ -13,10 +13,10 @@ DefaultContentLanguage = "en"
   # This is required to allow running 'babel' for legacy JavaScript
   _merge = "deep"
 
-[module]
-[[module.imports]]
-  # name = "claris"
-  path = 'github.com/simonheimlicher/hugo-claris'
+# [module]
+# [[module.imports]]
+#   # name = "claris"
+#   path = 'github.com/simonheimlicher/hugo-claris'
 
 [taxonomies]
 category = "categories"
