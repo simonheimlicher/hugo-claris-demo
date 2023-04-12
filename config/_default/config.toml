@@ -1,5 +1,5 @@
 title = "Hugo Claris"
-baseURL = "/"  # Include trailing slash
+baseURL = "https://simonheimlicher.github.io/hugo-claris-demo/"  # Include trailing slash
 
 # Use Hugo theme Claris
 # IMPORTANT: We add the theme as a module, see below ([[module.imports]])
