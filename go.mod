@@ -2,4 +2,4 @@ module github.com/simonheimlicher/hugo-claris-demo
 
 go 1.20
 
-require github.com/simonheimlicher/hugo-claris v0.0.0-20230412113752-ca5829e44eb2 // indirect
+require github.com/simonheimlicher/hugo-claris v0.0.0-20230412124653-34829f74c4d6 // indirect
