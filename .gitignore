@@ -3,7 +3,6 @@
 /cache
 /resources
 /layouts
-/static
 /assets/data/claris/private
 /assets/jsconfig.json
 .DS_Store
