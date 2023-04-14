@@ -16,7 +16,7 @@ module.exports = {
         // https://babeljs.io/docs/en/babel-preset-env#corejs
         // "corejs": { version: "3.12", proposals: true },
         // FIXME: 2023-02-05: Use more recent version
-        "corejs": { version: "3.27", proposals: true },
+        "corejs": { version: "3.30", proposals: true },
         // https://babeljs.io/docs/en/babel-preset-env#forcealltransforms
         "forceAllTransforms": true,
       }
