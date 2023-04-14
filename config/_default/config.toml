@@ -4,7 +4,7 @@ baseURL = "https://simonheimlicher.github.io/hugo-claris-demo/"  # Include trail
 # Use Hugo theme Claris
 # IMPORTANT: In production, we add the theme as a module, see below ([[module.imports]])
 # This means that we no longer specify it with parameter 'theme'
-theme = "claris" # Do not use in parallel with [[module.imports]]
+# theme = "claris" # Do not use in parallel with [[module.imports]]
 
 DefaultContentLanguage = "en"
 
