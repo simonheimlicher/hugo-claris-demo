@@ -6,8 +6,10 @@ bestbefore = "2006-03-17"
 categories = ["How-to"]
 tags = ["Modem", "Phone line"]
 description = "Tuning your phone line is key to optimize the performance of your modem, especially with the more recent V.90 standard"
-[image]
-  feature = "images/vintage-phone"
+[image.feature]
+  resource = "images/vintage-phone"
+  alt = "Photo of a vintage phone"
+  title = "Vintage phone"
 +++
 
 As you are probably aware, the phone line was never meant to be used for transmission of data. Nonetheless, for many of us, it is still the only way to, well, transmit data. In the article below, I provide some tips on how to tune the phone line to increase throughput of your modem.
@@ -24,7 +26,6 @@ The telephone line wires are commonly referred to as TIP and RING, which origina
 
 The typical telephone line bandwidth is around 180-3200 Hz, which was deemed sufficient for speech intelligibility back in the day. The low end is rolled off to avoid interference from mains frequency (50 or 60 Hz) and keep telephone transformer size small. The high end cut off is caused by the telephone transmission system, as the audio is digitized at 8 kHz.
 
-![Frequency Range](https://i.imgur.com/5wW9l5b.jpg)
 
 The telephone line is a balanced voice path, meaning the two wires (TIP and RING) are only referenced to each other. This design allows signals to travel for miles without expensive shielding, using common mode rejection to remove noise that is induced onto both wires. It's a clever way to make sure your gossip stays crystal clear!
 

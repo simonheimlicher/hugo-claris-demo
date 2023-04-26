@@ -10,6 +10,8 @@ description = "Quantum computing: in the shadow of artificial intelligence, this
   [[image.feature]]
     resource = "images/albert-einstein-figure"
     position = "center 30%"
+    alt = "Figurine of Albert Einstein"
+    title = "Albert Einstein"
 +++
 
 As we venture deeper into the 21st century, the world of technology continues to evolve at an unprecedented pace. From artificial intelligence to advanced robotics, innovations are shaping our daily lives in ways we never thought possible. Among these groundbreaking advancements, one particularly hot topic has captured the attention of the tech community: quantum computing.
@@ -23,7 +25,7 @@ Quantum Supremacy: The Ultimate Goal
 
 The term "quantum supremacy" refers to the point at which a quantum computer can perform a task that is impossible for a classical computer to achieve within a reasonable time frame. This milestone is widely regarded as the ultimate goal for quantum computing researchers and enthusiasts.
 
-{{< responsive-image caption="Albert Einstein" resource=images/albert-einstein-figure float=left relative-width="30%" >}}
+{{< responsive-image caption="Albert Einstein" resource=images/albert-einstein-figure alt="Figurine of Albert Einstein" title="Albert Einstein" float=left relative-width="30%" >}}
 
 In 2019, Google claimed to have achieved quantum supremacy with its Sycamore quantum processor, which reportedly solved a complex mathematical problem in just 200 seconds – a task that would have taken the world's most powerful classical computer an estimated 10,000 years to complete. However, this claim was met with some skepticism, as other industry experts argued that the problem was too specialized to be considered a true demonstration of quantum supremacy.
 

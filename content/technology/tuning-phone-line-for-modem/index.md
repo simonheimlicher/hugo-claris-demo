@@ -6,8 +6,10 @@ bestbefore = "2006-02-11"
 categories = ["How-to"]
 tags = ["Modem", "Phone line"]
 description = "Tuning your phone line is key to optimize the performance of your modem, especially with the more recent V.90 standard"
-[image]
-  feature = "images/modem-retro"
+[image.feature]
+  resource = "images/modem-retro"
+  alt = "Photo of a not yet retro modem"
+  title = "Oh the good old day's of modems"
 +++
 
 Ah, the good ol' days of 2001. *NSYNC* was tearing up our hearts, and our dial-up modems were tearing up our eardrums with those sweet, sweet screeching noises. If you're still clinging onto the nostalgia of the dial-up era or simply can't part ways with your V.90 modem, this guide is for you! Let's dive into the art of tuning your analog phone line for optimal V.90 modem performance.
