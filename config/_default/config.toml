@@ -8,6 +8,8 @@ baseURL = "https://simonheimlicher.github.io/hugo-claris-demo/"  # Include trail
 
 DefaultContentLanguage = "en"
 
+timeout = "600s"
+
 [security]
   # Merge security from theme for asset pipeline
   # This is required to allow running 'babel' for legacy JavaScript
