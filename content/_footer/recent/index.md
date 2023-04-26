@@ -5,4 +5,5 @@ lastmod = 2023-04-06
 +++
 
 ### Recent articles
-{{< list-content limit=3 >}}
+
+{{< list-content limit=3 sections=post,technology >}}

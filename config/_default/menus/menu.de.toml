@@ -10,6 +10,11 @@
   weight = -700
 
 [[main]]
+  name = "Technologie"
+  url = "technology/"
+  weight = -500
+
+[[main]]
   name = "Komponenten"
   url = "components/"
   weight = -400
