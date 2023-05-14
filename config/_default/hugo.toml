@@ -22,9 +22,9 @@ timeout = "600s"
   # Otherwise, we need to set at the very least to enable post processing
   # writeStats = true
 
-# [minify]
-#   # Merge minify from theme for asset pipeline
-#   _merge = "deep"
+[minify]
+  # Merge minify from theme for asset pipeline
+  _merge = "deep"
 
 [markup]
   # Merge markup from theme
