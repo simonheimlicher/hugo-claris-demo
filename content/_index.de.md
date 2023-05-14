@@ -38,6 +38,6 @@ sectionsToShow = [
     media = "(prefers-color-scheme: dark)"
     resource = "images/tadej-skofic-VWxiaKn-lVc-unsplash"
     credit = "Photo by <a href='https://unsplash.com/@tadej'>Tadej Skofic</a>"
-    alt = "..."
+    alt = "Sunrise in the mountains"
 
 +++

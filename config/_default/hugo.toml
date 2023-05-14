@@ -1,5 +1,6 @@
 title = "Hugo Theme Claris"
-baseURL = "https://simonheimlicher.github.io/hugo-claris-demo/"  # Include trailing slash
+# baseURL = "https://simonheimlicher.github.io/hugo-claris-demo/"  # Include trailing slash
+baseURL = "/"  # Include trailing slash
 
 # Use Hugo theme Claris
 # IMPORTANT: In production, we add the theme as a module, see below ([[module.imports]])
@@ -15,9 +16,24 @@ timeout = "600s"
   # This is required to allow running 'babel' for legacy JavaScript
   _merge = "deep"
 
-# [module]
-# [[module.imports]]
-#   path = 'github.com/simonheimlicher/hugo-claris'
+[build]
+  # Merge build from theme for asset pipeline
+  _merge = 'deep'
+  # Otherwise, we need to set at the very least to enable post processing
+  # writeStats = true
+
+# [minify]
+#   # Merge minify from theme for asset pipeline
+#   _merge = "deep"
+
+[markup]
+  # Merge markup from theme
+  _merge = "deep"
+
+# Use Hugo theme Claris
+[module]
+[[module.imports]]
+  path = 'github.com/simonheimlicher/hugo-claris'
 
 [taxonomies]
 category = "categories"
