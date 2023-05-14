@@ -1,0 +1,54 @@
+{
+  "comments": {
+    "dependencies": {
+      "@babel/runtime": "github.com/simonheimlicher/hugo-claris",
+      "@babel/runtime-corejs3": "github.com/simonheimlicher/hugo-claris",
+      "@fullhuman/postcss-purgecss": "github.com/simonheimlicher/hugo-claris",
+      "autoprefixer": "github.com/simonheimlicher/hugo-claris",
+      "core-js": "github.com/simonheimlicher/hugo-claris",
+      "esbuild": "github.com/simonheimlicher/hugo-claris",
+      "lazysizes": "github.com/simonheimlicher/hugo-claris",
+      "medium-zoom": "github.com/simonheimlicher/hugo-claris",
+      "object-fit-images": "github.com/simonheimlicher/hugo-claris",
+      "postcss-cli": "github.com/simonheimlicher/hugo-claris",
+      "qrcode-svg": "github.com/simonheimlicher/hugo-claris",
+      "regenerator-runtime": "github.com/simonheimlicher/hugo-claris"
+    },
+    "devDependencies": {
+      "@babel/cli": "github.com/simonheimlicher/hugo-claris",
+      "@babel/core": "github.com/simonheimlicher/hugo-claris",
+      "@babel/plugin-transform-runtime": "github.com/simonheimlicher/hugo-claris",
+      "@babel/preset-env": "github.com/simonheimlicher/hugo-claris",
+      "postcss": "github.com/simonheimlicher/hugo-claris",
+      "postcss-aspect-ratio-polyfill": "github.com/simonheimlicher/hugo-claris",
+      "postcss-custom-properties": "github.com/simonheimlicher/hugo-claris",
+      "postcss-object-fit-images": "github.com/simonheimlicher/hugo-claris"
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@babel/runtime-corejs3": "^7.14.0",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "core-js": "^3.13.0",
+    "esbuild": "^0.12.5",
+    "lazysizes": "^5.3.2",
+    "medium-zoom": "^1.0.6",
+    "object-fit-images": "^3.2.4",
+    "postcss-cli": "^8.3.1",
+    "qrcode-svg": "^1.1.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "postcss": "^8.4.23",
+    "postcss-aspect-ratio-polyfill": "^2.0.0",
+    "postcss-custom-properties": "^13.1.4",
+    "postcss-object-fit-images": "^1.1.2"
+  },
+  "name": "hugo-claris-demo",
+  "version": "0.1.0"
+}
