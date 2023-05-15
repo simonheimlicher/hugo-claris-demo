@@ -1,5 +1,0 @@
-[minify]
-  minifyOutput = true
-  # disableHTML = true
-  # disableJS = true
-  # disableCSS = true

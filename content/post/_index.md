@@ -1,14 +1,21 @@
-+++
-aliases = ["posts", "articles", "blog", "showcase", "docs"]
-title = "Posts"
-author = "Hugo Authors"
-tags = ["index"]
-[image.feature]
-    resource = "blog-feature"
-    alt = "Photo of a pen and notepad"
-    title = "A blog is all about writing"
-    position = "center 70%"
-+++
+---
+aliases:
+- posts
+- articles
+- blog
+- showcase
+- docs
+author: Hugo Authors
+image:
+  feature:
+    alt: Photo of a pen and notepad
+    position: center 70%
+    resource: blog-feature
+    title: A blog is all about writing
+tags:
+- index
+title: Posts
+---
 
 ---
 

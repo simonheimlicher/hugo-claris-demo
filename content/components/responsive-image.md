@@ -1,12 +1,12 @@
 ---
-title: "Responsive image"
-weight: 500
 date: "2012-01-29T04:21:00Z"
 image:
-    feature: 
-        resource: images/responsive-content-feature
-        alt: Screenshot of a floated image
-        title: Floating responsive images
+  feature:
+    alt: Screenshot of a floated image
+    resource: images/responsive-content-feature
+    title: Floating responsive images
+title: Responsive image
+weight: 500
 ---
 
 {{< responsive-image alt="Placeholder 1x1 20%" relative-width="20" lazy=true shape="round" float="left" resource="images/placeholder_4096x4096" >}}

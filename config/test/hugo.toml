@@ -2,12 +2,6 @@
   # No support for IE 11 with JS polyfills / ponyfills
   supportIE11 = false
 
-[minify]
-  minifyOutput = false
-  disableHTML = true
-  disableJS = true
-  disableCSS = true
-
 # No need for alternative languages in this environment
 [languages]
   [languages.en]

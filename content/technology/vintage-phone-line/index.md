@@ -1,16 +1,22 @@
-+++
-title = "POTS: Plain Old Telephone Service"
-subtitle = "Learn about the two wires that connect your home to the world-wide world of the Internet"
-date = "2001-03-17T10:07:48Z"
-bestbefore = "2006-03-17"
-categories = ["How-to"]
-tags = ["Modem", "Phone line"]
-description = "Tuning your phone line is key to optimize the performance of your modem, especially with the more recent V.90 standard"
-[image.feature]
-  resource = "images/vintage-phone"
-  alt = "Photo of a vintage phone"
-  title = "Vintage phone"
-+++
+---
+bestbefore: "2006-03-17"
+categories:
+- How-to
+date: "2001-03-17T10:07:48Z"
+description: Tuning your phone line is key to optimize the performance of your modem,
+  especially with the more recent V.90 standard
+image:
+  feature:
+    alt: Photo of a vintage phone
+    resource: images/vintage-phone
+    title: Vintage phone
+subtitle: Learn about the two wires that connect your home to the world-wide world
+  of the Internet
+tags:
+- Modem
+- Phone line
+title: 'POTS: Plain Old Telephone Service'
+---
 
 As you are probably aware, the phone line was never meant to be used for transmission of data. Nonetheless, for many of us, it is still the only way to, well, transmit data. In the article below, I provide some tips on how to tune the phone line to increase throughput of your modem.
 

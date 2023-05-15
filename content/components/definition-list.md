@@ -1,6 +1,6 @@
-+++
-title = "Definition list"
-+++
+---
+title: Definition list
+---
 
 
 Connected

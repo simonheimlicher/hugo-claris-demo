@@ -1,18 +1,22 @@
-+++
-title = "The race to quantum supremacy"
-subtitle = "A quick dive into one of today's hottest tech topic"
-date = "2023-04-17T13:24:12Z"
-bestbefore = "2026-04-17"
-categories = ["Hot topics"]
-tags = ["Quantum computing", "QBits"]
-description = "Quantum computing: in the shadow of artificial intelligence, this topic has captured the attention of the tech community"
-[image]
-  [[image.feature]]
-    resource = "images/albert-einstein-figure"
-    position = "center 30%"
-    alt = "Figurine of Albert Einstein"
-    title = "Albert Einstein"
-+++
+---
+bestbefore: "2026-04-17"
+categories:
+- Hot topics
+date: "2023-04-17T13:24:12Z"
+description: 'Quantum computing: in the shadow of artificial intelligence, this topic
+  has captured the attention of the tech community'
+image:
+  feature:
+  - alt: Figurine of Albert Einstein
+    position: center 30%
+    resource: images/albert-einstein-figure
+    title: Albert Einstein
+subtitle: A quick dive into one of today's hottest tech topic
+tags:
+- Quantum computing
+- QBits
+title: The race to quantum supremacy
+---
 
 As we venture deeper into the 21st century, the world of technology continues to evolve at an unprecedented pace. From artificial intelligence to advanced robotics, innovations are shaping our daily lives in ways we never thought possible. Among these groundbreaking advancements, one particularly hot topic has captured the attention of the tech community: quantum computing.
 

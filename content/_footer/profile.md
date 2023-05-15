@@ -1,9 +1,9 @@
-+++
-title = "Demo site for Hugo theme Claris"
-weight = 100
-lastmod = 2023-04-06
-flexbasis = "min-content"
-+++
+---
+flexbasis: min-content
+lastmod: "2023-04-06"
+title: Demo site for Hugo theme Claris
+weight: 100
+---
 
 {{< responsive-image alt="Portrait of Simon Heimlicher" relative-width="40" lazy=true float="left" resource="images/portrait" >}}
 
