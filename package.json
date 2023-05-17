@@ -12,7 +12,8 @@
       "object-fit-images": "github.com/simonheimlicher/hugo-claris",
       "postcss-cli": "github.com/simonheimlicher/hugo-claris",
       "qrcode-svg": "github.com/simonheimlicher/hugo-claris",
-      "regenerator-runtime": "github.com/simonheimlicher/hugo-claris"
+      "regenerator-runtime": "github.com/simonheimlicher/hugo-claris",
+      "web-vitals": "github.com/simonheimlicher/hugo-claris"
     },
     "devDependencies": {
       "@babel/cli": "github.com/simonheimlicher/hugo-claris",
@@ -20,7 +21,6 @@
       "@babel/plugin-transform-runtime": "github.com/simonheimlicher/hugo-claris",
       "@babel/preset-env": "github.com/simonheimlicher/hugo-claris",
       "postcss": "github.com/simonheimlicher/hugo-claris",
-      "postcss-aspect-ratio-polyfill": "github.com/simonheimlicher/hugo-claris",
       "postcss-custom-properties": "github.com/simonheimlicher/hugo-claris",
       "postcss-object-fit-images": "github.com/simonheimlicher/hugo-claris"
     }
@@ -37,7 +37,8 @@
     "object-fit-images": "^3.2.4",
     "postcss-cli": "^8.3.1",
     "qrcode-svg": "^1.1.0",
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "web-vitals": "^3.3.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -45,7 +46,6 @@
     "@babel/plugin-transform-runtime": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
     "postcss": "^8.4.23",
-    "postcss-aspect-ratio-polyfill": "^2.0.0",
     "postcss-custom-properties": "^13.1.4",
     "postcss-object-fit-images": "^1.1.2"
   },
