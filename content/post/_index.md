@@ -6,6 +6,7 @@ aliases:
 - showcase
 - docs
 author: Hugo Authors
+description: Some example articles from the Hugo `exampleSite` repository
 image:
   feature:
     alt: Photo of a pen and notepad
