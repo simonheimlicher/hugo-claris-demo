@@ -7,6 +7,7 @@ aliases:
 - docs
 author: Hugo Authors
 description: Some example articles from the Hugo `exampleSite` repository
+summary: Example blog posts including an overview of Markdown features
 image:
   feature:
     alt: Photo of a pen and notepad
