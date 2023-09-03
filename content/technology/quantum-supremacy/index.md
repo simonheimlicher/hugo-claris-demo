@@ -11,7 +11,7 @@ image:
     position: center 30%
     resource: images/albert-einstein-figure
     title: Albert Einstein
-subtitle: A quick dive into one of today's hottest tech topic
+subtitle: A quick dive into one of today's hottest tech topics
 tags:
 - Quantum computing
 - QBits
@@ -20,8 +20,6 @@ title: The race to quantum supremacy
 
 As we venture deeper into the 21st century, the world of technology continues to evolve at an unprecedented pace. From artificial intelligence to advanced robotics, innovations are shaping our daily lives in ways we never thought possible. Among these groundbreaking advancements, one particularly hot topic has captured the attention of the tech community: quantum computing.
 
-## The Basics of Quantum Computing
-
 Traditional computers utilize bits to process and store information. These bits exist in a binary state, either as a 0 or a 1. Quantum computing, on the other hand, introduces an entirely new method of data processing. It relies on qubits, which have the unique ability to exist in multiple states simultaneously, thanks to the principles of quantum mechanics.
 
 In essence, qubits can be both 0 and 1 at the same time. This phenomenon, known as superposition, enables quantum computers to perform calculations at a rate far beyond that of conventional computers. Qubits can also be entangled, allowing them to share information instantaneously, regardless of the physical distance between them.
@@ -29,7 +27,7 @@ Quantum Supremacy: The Ultimate Goal
 
 The term "quantum supremacy" refers to the point at which a quantum computer can perform a task that is impossible for a classical computer to achieve within a reasonable time frame. This milestone is widely regarded as the ultimate goal for quantum computing researchers and enthusiasts.
 
-{{< responsive-image caption="Albert Einstein" resource=images/albert-einstein-figure alt="Figurine of Albert Einstein" title="Albert Einstein" float=left relative-width="30" >}}
+{{< responsive-image caption="Albert Einstein" resource=images/albert-einstein-figure alt="Figurine of Albert Einstein" title="Albert Einstein" float=right relative-width="50" >}}
 
 In 2019, Google claimed to have achieved quantum supremacy with its Sycamore quantum processor, which reportedly solved a complex mathematical problem in just 200 seconds – a task that would have taken the world's most powerful classical computer an estimated 10,000 years to complete. However, this claim was met with some skepticism, as other industry experts argued that the problem was too specialized to be considered a true demonstration of quantum supremacy.
 
