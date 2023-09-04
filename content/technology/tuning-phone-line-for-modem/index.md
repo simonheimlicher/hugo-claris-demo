@@ -2,6 +2,7 @@
 bestbefore: "2006-02-11"
 categories:
 - How-to
+- Technology
 date: "2001-02-11T09:44:21Z"
 description: Tuning your phone line is key to optimize the performance of your modem,
   especially with the more recent V.90 standard
@@ -14,6 +15,7 @@ subtitle: Tuning Your Analog Phone Line for V.90 Modems
 tags:
 - Modem
 - Phone line
+- Example content
 title: Crank Up Your Dial-Up
 ---
 

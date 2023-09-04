@@ -2,6 +2,7 @@
 bestbefore: "2026-04-17"
 categories:
 - Hot topics
+- Technology
 date: "2023-04-17T13:24:12Z"
 description: 'Quantum computing: in the shadow of artificial intelligence, this topic
   has captured the attention of the tech community'
@@ -15,6 +16,7 @@ subtitle: A quick dive into one of today's hottest tech topics
 tags:
 - Quantum computing
 - QBits
+- Example content
 title: The race to quantum supremacy
 ---
 

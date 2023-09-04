@@ -2,6 +2,7 @@
 bestbefore: "2006-03-17"
 categories:
 - How-to
+- Technology
 date: "2001-03-17T10:07:48Z"
 description: Tuning your phone line is key to optimize the performance of your modem,
   especially with the more recent V.90 standard
@@ -15,6 +16,7 @@ subtitle: Learn about the two wires that connect your home to the world-wide wor
 tags:
 - Modem
 - Phone line
+- Example content
 title: 'POTS: Plain Old Telephone Service'
 ---
 

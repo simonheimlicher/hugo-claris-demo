@@ -70,12 +70,6 @@ supportIE11 = true
 
 sidebarTaxonomies = ["tags", "categories"]
 
-# list pages in current section in navigation for these types
-navListCurrentSectionForTypes = ["vitae"]
-navListCurrentSectionInSection = ["confidential", "application"]
-
-assetDownloadFolders = ["downloads"]
-
 [home]
   section = "_home"
 
