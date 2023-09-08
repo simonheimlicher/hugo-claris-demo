@@ -28,9 +28,6 @@ mobileNavigation = "right" # if you prefer right change to 'right'
 # enforceLightMode = false
 # enforceDarkMode = false
 
-# Break point to hide mobile menu and show narrow version of full navigation
-screenViewBreakpointWidthMobileMenu = "34rem"
-
 # Maximum number of recent articles.
 # numberOfRecentArticles = 3
 
@@ -88,7 +85,7 @@ sidebarTaxonomies = ["tags", "categories"]
 
 [website]
   name = "Hugo Claris Showcase"
-  tagline = "Responsive, mobile-first and beautiful"
+  tagline = "Fluid portfolio and blog theme"
 
   # Description to be used for home page content meta tags (SEO).
   # Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
@@ -102,7 +99,7 @@ sidebarTaxonomies = ["tags", "categories"]
   # This is currently only used if there are no valid pages in section footer
   [website.profile]
     headline = "About Hugo Claris"
-    text = "Mobile-first responsive theme for Hugo built by"
+    text = "Fluid portfolio and blog theme for Hugo built by"
     link = "Simon Heimlicher"
     # URL for the 'read more' link below the profile, or set to false to not show the link
     url = "https://simon.heimlicher.com/about/"
@@ -117,6 +114,17 @@ sidebarTaxonomies = ["tags", "categories"]
     "images/sh.com_site_thumbnail_1200x675.png",
     "images/sh.com_site_thumbnail_1200x1200.png"
   ]
+
+
+[responsive]
+  [responsive.breakpoints]
+    [responsive.breakpoints.width]
+      # From this width upward, the mobile menu is hidden
+      # and the full menu bar is shown
+      mobileMenu = "40rem"
+
+      # From this width upward, font size is set to regular size
+      narrow = "44rem"
 
 # Configuration of robots tag in head
 [robots]

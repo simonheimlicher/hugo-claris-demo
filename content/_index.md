@@ -1,5 +1,5 @@
 ---
-subtitle: Mobile-first, responsive and beautiful
+subtitle: Fluid portfolio and blog theme for Hugo
 supertitle: Hugo Theme
 title: Claris
 author: Simon Heimlicher

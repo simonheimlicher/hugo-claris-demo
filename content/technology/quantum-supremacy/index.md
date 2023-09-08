@@ -25,7 +25,8 @@ As we venture deeper into the 21st century, the world of technology continues to
 Traditional computers utilize bits to process and store information. These bits exist in a binary state, either as a 0 or a 1. Quantum computing, on the other hand, introduces an entirely new method of data processing. It relies on qubits, which have the unique ability to exist in multiple states simultaneously, thanks to the principles of quantum mechanics.
 
 In essence, qubits can be both 0 and 1 at the same time. This phenomenon, known as superposition, enables quantum computers to perform calculations at a rate far beyond that of conventional computers. Qubits can also be entangled, allowing them to share information instantaneously, regardless of the physical distance between them.
-Quantum Supremacy: The Ultimate Goal
+
+## Quantum Supremacy: The Ultimate Goal
 
 The term "quantum supremacy" refers to the point at which a quantum computer can perform a task that is impossible for a classical computer to achieve within a reasonable time frame. This milestone is widely regarded as the ultimate goal for quantum computing researchers and enthusiasts.
 
