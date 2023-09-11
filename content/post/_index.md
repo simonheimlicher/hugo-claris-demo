@@ -1,10 +1,5 @@
 ---
-aliases:
-- posts
-- articles
-- blog
-- showcase
-- docs
+title: Posts
 author: Hugo Authors
 description: Some example articles from the Hugo `exampleSite` repository
 summary: Example blog posts including an overview of Markdown features
@@ -16,7 +11,13 @@ image:
     title: A blog is all about writing
 tags:
 - index
-title: Posts
+list: true
+aliases:
+- posts
+- articles
+- blog
+- showcase
+- docs
 ---
 
 ---
