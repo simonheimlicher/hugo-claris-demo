@@ -3,7 +3,7 @@ author: Hugo Authors
 date: "2019-03-08"
 description: A brief guide to setup KaTeX
 math: true
-title: Math Typesetting
+title: Math typesetting using `$$`
 tags:
 - Markdown
 - Math
