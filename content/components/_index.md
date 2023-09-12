@@ -4,7 +4,6 @@ title: Components
 tags:
 - Markdown
 - Example content
-
 categories:
 - Theme
 ---
