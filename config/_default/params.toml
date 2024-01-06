@@ -144,6 +144,4 @@ sidebarTaxonomies = ["tags", "categories"]
     id = "simonheimlicher"
   [social.stackoverflow]
     id = "617559/simon-heimlicher"
-  [social.resumesocial]
-    id = "simon-heimlicher"
 

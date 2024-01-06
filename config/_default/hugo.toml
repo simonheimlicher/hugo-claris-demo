@@ -32,35 +32,35 @@ timeout = "600s"
 
 # Use Hugo theme Claris
 [module]
-[[module.imports]]
-  path = 'github.com/simonheimlicher/hugo-claris'
+  [[module.imports]]
+    path = 'github.com/simonheimlicher/hugo-claris'
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [related]
   includeNewer = true
   threshold = 50
   toLower = true
 
-[[related.indices]]
-  name = "categories"
-  weight = 100
-
-[[related.indices]]
-  name = "tags"
-  weight = 100
-
-[[related.indices]]
-    name = "keywords"
+  [[related.indices]]
+    name = "categories"
     weight = 100
 
-[[related.indices]]
-  name = "date"
-  weight = 10
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+      name = "keywords"
+      weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
 
 # website author
 [author]
-  name = "Jane Doe"
+  name = "Simon Heimlicher"
