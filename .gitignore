@@ -3,7 +3,6 @@
 /cache
 /resources
 /layouts
-/assets/data/claris/private
 /assets/jsconfig.json
 .DS_Store
 .hugo_build.lock
