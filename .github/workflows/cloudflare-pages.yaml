@@ -49,9 +49,9 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
+      # - name: Setup Pages
+      #   id: pages
+      #   uses: actions/configure-pages@v4
 
       # - name: Install Node.js dependencies
       #   run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
@@ -82,21 +82,13 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-  # # Deployment job
-  # deploy:
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     contents: read
-  #     deployments: write
-  #   needs: build
-  #   steps:
-      - name: Publish to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: 8033059ae1977f920383301df00eaffd
+          accountId: ${{ secretes.CLOUDFLARE_ACCOUNT_ID }}
           projectName: hugo-claris-demo
-          directory: ./public
+          directory: public
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           # Optional: Switch what branch you are publishing to.
