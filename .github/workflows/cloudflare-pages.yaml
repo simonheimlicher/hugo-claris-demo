@@ -1,5 +1,5 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+# Workflow for building and deploying this Hugo site to Cloudflare Pages
+name: Deploy Hugo site to Cloudflare Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -82,19 +82,14 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v2
-      #   with:
-      #     path: ./public
-
-  # Deployment job
-  deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
-    needs: build
-    steps:
+  # # Deployment job
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     contents: read
+  #     deployments: write
+  #   needs: build
+  #   steps:
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
