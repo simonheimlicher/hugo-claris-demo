@@ -29,10 +29,14 @@ defaults:
 
 jobs:
   # Build job
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     env:
       HUGO_VERSION: 0.121.1
+
     steps:
 
       - name: Install Hugo CLI
@@ -49,19 +53,12 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      # - name: Setup Pages
-      #   id: pages
-      #   uses: actions/configure-pages@v4
-
-      # - name: Install Node.js dependencies
-      #   run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install or fetch node modules from cache
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
       - run: npm ci
-      # - run: npm test
 
       - name: Fetch resources from cache
         uses: actions/cache@v3
