@@ -1,8 +1,8 @@
-/public
-/output
-/cache
-/resources
-/layouts
+/public/
+/output/
+/cache/
+/resources/
+/layouts/
 /assets/jsconfig.json
 .DS_Store
 .hugo_build.lock
@@ -10,4 +10,5 @@ node_modules
 .frontmatter
 frontmatter.json
 go.work
-/local
+/local/
+/state/
