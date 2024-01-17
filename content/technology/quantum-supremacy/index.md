@@ -30,7 +30,7 @@ In essence, qubits can be both 0 and 1 at the same time. This phenomenon, known 
 
 The term "quantum supremacy" refers to the point at which a quantum computer can perform a task that is impossible for a classical computer to achieve within a reasonable time frame. This milestone is widely regarded as the ultimate goal for quantum computing researchers and enthusiasts.
 
-{{< responsive-image caption="Albert Einstein" resource=images/albert-einstein-figure alt="Figurine of Albert Einstein" title="Albert Einstein" float=right relative-width="50" >}}
+{{< responsive-image caption="Albert Einstein" resource=images/albert-einstein-figure alt="Figurine of Albert Einstein" title="Albert Einstein" float=right relative-width="50" lightbox="true" >}}
 
 In 2019, Google claimed to have achieved quantum supremacy with its Sycamore quantum processor, which reportedly solved a complex mathematical problem in just 200 seconds – a task that would have taken the world's most powerful classical computer an estimated 10,000 years to complete. However, this claim was met with some skepticism, as other industry experts argued that the problem was too specialized to be considered a true demonstration of quantum supremacy.
 
