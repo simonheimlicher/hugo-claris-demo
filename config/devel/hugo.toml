@@ -1,7 +1,3 @@
-[params]
-  # No support for IE 11 with JS polyfills / ponyfills
-  supportIE11 = false
-
 [languages]
   [languages.en]
     LanguageName = "English"

@@ -62,9 +62,6 @@ ephemeralSections = [
 # Serve font files from static instead of relying on Google Fonts servers
 fontsSelfHosted = true
 
-# Support IE 11 with JS polyfills / ponyfills
-supportIE11 = true
-
 sidebarTaxonomies = ["tags", "categories"]
 
 [home]
@@ -145,3 +142,6 @@ sidebarTaxonomies = ["tags", "categories"]
   [social.stackoverflow]
     id = "617559/simon-heimlicher"
 
+[javascript]
+[javascript.optional]
+mediumzoom = true
