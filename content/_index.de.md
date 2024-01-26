@@ -1,10 +1,10 @@
 ---
-subtitle: Fluid portfolio and blog theme for Hugo
+subtitle: Ein Portfolio-Theme für Hugo
 supertitle: Hugo Theme
 title: Claris
 author: Simon Heimlicher
 date: 1999-03-19T00:00:00+0200
-description: Showcase for Hugo theme Claris
+description: Demo-Website für Hugo-Theme Claris
 genre: Hugo theme
 image:
   excerpt:
