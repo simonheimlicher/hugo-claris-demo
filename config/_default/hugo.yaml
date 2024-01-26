@@ -1,0 +1,19 @@
+title: Hugo Theme Claris
+baseURL: /
+DefaultContentLanguage: en
+timeout: 600s
+security:
+  _merge: deep
+build:
+  _merge: deep
+minify:
+  _merge: deep
+markup:
+  _merge: deep
+module:
+  imports:
+    - path: github.com/simonheimlicher/hugo-claris
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
