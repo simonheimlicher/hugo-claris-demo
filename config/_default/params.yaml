@@ -77,7 +77,7 @@ assets:
       # 1 .Download the font files using [google-webfonts-helper](https://gwfh.mranftl.com/fonts)
       # 2. Then add the fonts to the `static` directory under the path that is expected
       #    by the corresponding file in `assets/styles/claris/fonts/...`
-      # 3. Enable self hosted fonts by setting `style.fonts.selfhosted = true` below
+      # 3. Enable self hosted fonts by setting `assets.styles.fonts.selfhosted = true` below
       selfhosted: true
 
   scripts:

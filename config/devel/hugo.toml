@@ -1,5 +1,0 @@
-[languages]
-  [languages.en]
-    LanguageName = "English"
-    languageCode = "en-us"
-    weight = 1
