@@ -5,6 +5,7 @@ image:
     alt: Photo of meandering river
     resource: images/pexels-pexels-user-20008219_1x1
     title: Floating responsive images
+    position: center 50%
   excerpt:
     alt: Screenshot of a floated image
     resource: images/responsive-content-feature
