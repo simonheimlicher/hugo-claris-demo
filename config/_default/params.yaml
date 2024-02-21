@@ -5,7 +5,7 @@ mainSections:
   - technology
 header:
   logo:
-    resource: images/logo
+    src: images/logo
     # The logo or site title is a link.
     # Default: "/" in the current language
     # If you would like to link to a different page, provide the path of this page below.
@@ -116,6 +116,3 @@ social:
     id: simonheimlicher
   stackoverflow:
     id: 617559/simon-heimlicher
-javascript:
-  optional:
-    mediumzoom: true

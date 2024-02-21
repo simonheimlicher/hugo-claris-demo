@@ -11,9 +11,6 @@
     },
     {
       "path": "."
-    },
-    {
-      "path": "../../modules/claris"
     }
   ],
   "settings": {

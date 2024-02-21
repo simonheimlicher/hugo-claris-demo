@@ -1,0 +1,31 @@
+languages:
+  en:
+    LanguageName: English
+    languageCode: en-us
+    weight: 1
+
+# Define a subset of content directories to be used for development
+# module:
+#   mounts:
+#     - source: content
+#       target: content
+#       includeFiles:
+#         - '/*index.*'
+#     - source: content/images
+#       target: content/images
+#     - source: content/components/hero-image
+#       target: content/hero-image
+#     - source: content/components/feature-image
+#       target: content/feature-image
+
+# NOTE: The following approach of defining empty keys
+# leads to issues with spurious home pages being rendered
+# that do not appear to be backed by files and thus
+# do not get any params from the front matter, such as `.Title`
+# taxonomies:
+#   category:
+#   tag:
+#   series:
+
+disableKinds:
+  - RSS

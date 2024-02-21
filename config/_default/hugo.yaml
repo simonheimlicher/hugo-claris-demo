@@ -1,4 +1,4 @@
-title: Hugo Theme Claris
+title: Site for Hugo Theme Claris
 baseURL: /
 DefaultContentLanguage: en
 timeout: 600s
@@ -10,10 +10,38 @@ minify:
   _merge: deep
 markup:
   _merge: deep
+
+# The only purpose of mounting Hugo's default directories below
+# is to filter `.DS_Store` files
 module:
   imports:
     - path: github.com/simonheimlicher/hugo-claris
+  mounts:
+    - source: assets
+      target: assets
+      excludeFiles:
+        - .DS_Store
+    - source: data
+      target: data
+      excludeFiles:
+        - .DS_Store
+    - source: static
+      target: static
+      excludeFiles:
+        - .DS_Store
+    - source: i18n
+      target: i18n
+      excludeFiles:
+        - .DS_Store
+    - source: content
+      target: content
+      excludeFiles:
+        - .DS_Store
+
 taxonomies:
   category: categories
   tag: tags
   series: series
+
+disableKinds:
+  - RSS
