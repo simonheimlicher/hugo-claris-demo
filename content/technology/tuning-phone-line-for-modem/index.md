@@ -9,7 +9,7 @@ description: Tuning your phone line is key to optimize the performance of your m
 image:
   feature:
     alt: Photo of a not yet retro modem
-    resource: images/modem-retro
+    src: images/modem-retro
     title: Oh the good old day's of modems
 subtitle: Tuning Your Analog Phone Line for V.90 Modems
 tags:
@@ -29,7 +29,7 @@ First things first, cozy up to your modem and give it a good once-over. Locate t
 
 Find the shortest phone cable you can (ideally 6 feet or less) and connect your modem directly to the phone jack. The shorter the cable, the better the performance. If you're feeling fancy, you can even purchase a high-quality phone cable, but let's not go overboard here.
 
-{{< responsive-image resource=images/modem-retro alt="A not so retro modem" caption="Shiny new modem" >}}
+{{< claris/render-image src=images/modem-retro alt="A not so retro modem" caption="Shiny new modem" >}}
 
 ## **Step 3:** Check for Noise
 

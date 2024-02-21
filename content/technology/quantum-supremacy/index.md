@@ -10,7 +10,7 @@ image:
   feature:
   - alt: Figurine of Albert Einstein
     position: center 30%
-    resource: images/einstein
+    src: images/einstein
     title: Albert Einstein
 subtitle: A quick dive into one of today's hottest tech topics
 tags:

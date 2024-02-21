@@ -4,8 +4,8 @@ date: "2019-03-10"
 description: A brief description of Hugo Shortcodes
 image:
   feature:
-    alt: Screenshot of vimeo
-    resource: vimeo-screenshot
+    alt: Screenshot of Vimeo
+    src: vimeo-screenshot
     title: Vimeo
 tags:
 - Shortcode

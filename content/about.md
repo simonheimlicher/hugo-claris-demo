@@ -11,14 +11,14 @@ image:
     alt: Logo of Hugo static site generator
     credit: 'Original: Steve Francia, Vectorization: Bud Parr - https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/layouts/partials/svg/hugo-logo-wide.svg,
       Apache License 2.0, https://commons.wikimedia.org/w/index.php?curid=77552265'
-    resource: images/logo_of_hugo_the_static_website_generator
+    src: images/logo_of_hugo_the_static_website_generator
     title: Hugo - the world's fastest static site generator
 title: About
 ---
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
-{{< responsive-image resource="images/Logo_of_Hugo" float=right >}}
+{{< claris/render-image src="images/Logo_of_Hugo" float=right >}}
 
 Hugo makes use of a variety of open source projects including:
 

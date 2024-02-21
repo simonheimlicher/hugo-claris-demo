@@ -9,7 +9,7 @@ description: Tuning your phone line is key to optimize the performance of your m
 image:
   feature:
     alt: Photo of a vintage phone
-    resource: images/vintage-phone
+    src: images/vintage-phone
     title: Vintage phone
 subtitle: Learn about the two wires that connect your home to the world-wide world
   of the Internet
@@ -30,7 +30,7 @@ Your regular telephone line is called a "Plain Old Telephone System" or POTS, an
 
 The telephone line wires are commonly referred to as TIP and RING, which originated from plugboard terminology. These names are related to the 1/4" phone plugs used in the early days of manual telephone switchboards.
 
-{{< responsive-image resource="images/vintage-phone" alt="Vintage telephone" float="right" >}}
+{{< claris/render-image src="images/vintage-phone" alt="Vintage telephone" float="right" >}}
 
 The typical telephone line bandwidth is around 180-3200 Hz, which was deemed sufficient for speech intelligibility back in the day. The low end is rolled off to avoid interference from mains frequency (50 or 60 Hz) and keep telephone transformer size small. The high end cut off is caused by the telephone transmission system, as the audio is digitized at 8 kHz.
 
