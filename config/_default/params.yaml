@@ -102,7 +102,6 @@ responsive:
   breakpoints:
     width:
       mobileMenu: 40rem
-      narrow: 44rem
 robots:
   index: true
   indeximages: false
