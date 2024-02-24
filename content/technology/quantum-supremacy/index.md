@@ -1,5 +1,5 @@
 ---
-bestbefore: "2026-04-17"
+clarisdebug:bestbefore: "2026-04-17"
 categories:
 - Hot topics
 - Technology
@@ -23,6 +23,8 @@ title: The race to quantum supremacy
 As we venture deeper into the 21st century, the world of technology continues to evolve at an unprecedented pace. From artificial intelligence to advanced robotics, innovations are shaping our daily lives in ways we never thought possible. Among these groundbreaking advancements, one particularly hot topic has captured the attention of the tech community: quantum computing.
 
 Traditional computers utilize bits to process and store information. These bits exist in a binary state, either as a 0 or a 1. Quantum computing, on the other hand, introduces an entirely new method of data processing. It relies on qubits, which have the unique ability to exist in multiple states simultaneously, thanks to the principles of quantum mechanics.
+
+{{< claris/render-image caption="Albert Einstein as a figurine" src=images/einstein alt="Figurine of Albert Einstein" title="Albert Einstein" float=right relative-width="50" lightbox="true" position="45%" ratio="0.8" >}}
 
 In essence, qubits can be both 0 and 1 at the same time. This phenomenon, known as superposition, enables quantum computers to perform calculations at a rate far beyond that of conventional computers. Qubits can also be entangled, allowing them to share information instantaneously, regardless of the physical distance between them.
 

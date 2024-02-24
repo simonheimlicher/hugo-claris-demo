@@ -2,7 +2,7 @@
 title: Posts
 author: Hugo Authors
 description: Some example articles from the Hugo `exampleSite` repository
-summary: Example blog posts including an overview of Markdown features
+summary: Example blog posts, including an overview of Markdown features such as **bold**, *italics* and `code`
 weight: -700
 image:
   feature:
