@@ -22,7 +22,7 @@ Getting your images to load quickly on all screen sizes by using the minimum amo
 
 This page illustrates some of the options of the corresponding shortcode `claris/render-image`.
 
-## 1x1 float left 20%
+## Aspect: 1x1 shape: round float: left relative width: 20%
 
 ```gothml
 relative-width="20" shape="round" float="left" lightbox="true"
@@ -32,7 +32,7 @@ relative-width="20" shape="round" float="left" lightbox="true"
 
 Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-## 9x16 float left 20%
+## Aspect: 9x16 float: left relative width: 20%
 
 ```gothml
 relative-width="20" float="left" lightbox="true"
@@ -42,7 +42,7 @@ relative-width="20" float="left" lightbox="true"
 
 Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-## 16x9 float left 20%
+## Aspect: 16x9 float: left relative width: 20%
 
 ```gothml
 relative-width="20" float="left" lightbox="true"
@@ -58,7 +58,7 @@ Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit
 
 Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-## 1x1 float left 30%
+## Aspect: 1x1 float: left relative width: 30%
 
 ```gothml
 relative-width="30" float="left" lightbox="true"
@@ -70,7 +70,7 @@ Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit
 
 Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-## 9x16 float left 40%
+## Aspect: 9x16 float: left relative width: 40%
 
 ```gothml
 relative-width="30" float="left" lightbox="true"
@@ -90,7 +90,7 @@ Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit
 
 Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-## 9x16 float left 50%
+## Aspect: 9x16 float: left relative width: 50%
 
 ```gothml
 relative-width="30" float="left" lightbox="true"
@@ -114,7 +114,7 @@ Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit
 
 Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-## 16x9 with caption
+## Aspect: 16x9 caption
 
 ```gothml
 relative-width="30" caption="Photo by Pexels User: https://www.pexels.com/photo/river-in-rage-20008219" background="light" lightbox="true"
