@@ -6,6 +6,11 @@ security:
   _merge: deep
 build:
   _merge: deep
+  # NOTE: It is imperative for `build.buildStats.enable` to be `true`
+  # in both stage and production, or any environment for which
+  # `is-build-environment production` returns true
+  buildStats:
+    enable: true
 minify:
   _merge: deep
 markup:
