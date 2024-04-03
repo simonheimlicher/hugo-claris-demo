@@ -33,10 +33,12 @@ module:
       target: i18n
       excludeFiles:
         - .DS_Store
-    - source: content
-      target: content
-      excludeFiles:
-        - .DS_Store
+    # NOTE: Avoid mounting `content` as this makes it impossible
+    # to override the path with `--contentDir`
+    # - source: content
+    #   target: content
+    #   excludeFiles:
+    #     - .DS_Store
 
 taxonomies:
   category: categories
