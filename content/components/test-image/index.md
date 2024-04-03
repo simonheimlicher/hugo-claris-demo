@@ -1,5 +1,5 @@
 ---
-clarisdebug: true
+# clarisdebug: true
 title: Test image black/white
 author: Simon Heimlicher
 description: Black and white test image
