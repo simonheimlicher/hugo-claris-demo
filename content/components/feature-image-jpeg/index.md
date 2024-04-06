@@ -1,7 +1,7 @@
 ---
 # clarisdebug: true
-# supertitle: Theme component
 title: Feature image JPEG
+supertitle: Theme component
 subtitle: Responsive full-bleed feature image
 image:
   feature:
@@ -10,16 +10,16 @@ image:
     #   title: Responsive full-bleed feature image
     #   position: center 60%
     #   credits: "Photo by Pexels User: https://www.pexels.com/photo/river-in-rage-20008219/"
-    # - src: images/river_16x9
-    #   alt: Photo of a meandering river
-    #   title: Responsive full-bleed feature image
-    #   position: center 50%
-    #   credits: "Photo by Pexels User: https://www.pexels.com/photo/river-in-rage-20008219/"
-    - src: images/river_9x16
+    - src: images/river_16x9
       alt: Photo of a meandering river
       title: Responsive full-bleed feature image
       position: center 50%
       credits: "Photo by Pexels User: https://www.pexels.com/photo/river-in-rage-20008219/"
+    # - src: images/river_9x16
+    #   alt: Photo of a meandering river
+    #   title: Responsive full-bleed feature image
+    #   position: center 50%
+    #   credits: "Photo by Pexels User: https://www.pexels.com/photo/river-in-rage-20008219/"
     # - src: images/river_1x1
     #   alt: Photo of a meandering river
     #   title: Responsive full-bleed feature image

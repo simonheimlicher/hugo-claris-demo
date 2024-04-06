@@ -1,8 +1,8 @@
 ---
 # clarisdebug: true
-subtitle: Fluid portfolio and blog theme for Hugo
-supertitle: Hugo Theme
 title: Claris
+supertitle: Hugo Theme
+subtitle: Fluid portfolio and blog theme for Hugo
 author: Simon Heimlicher
 date: 2016-02-20T00:00:00+0200
 description: Showcase for Hugo theme Claris

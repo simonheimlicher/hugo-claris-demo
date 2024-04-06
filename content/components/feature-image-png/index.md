@@ -1,7 +1,7 @@
 ---
 # clarisdebug: true
-# supertitle: Theme component
 title: Feature image PNG
+supertitle: Theme component
 subtitle: Responsive full-bleed feature image
 image:
   feature:

@@ -1,5 +1,9 @@
 ---
 # clarisdebug: true
+title: Render image
+supertitle: Theme component
+subtitle: Responsive image with caption and lightbox option
+description: Floating responsive images
 date: "2024-02-24"
 image:
   feature:
@@ -12,9 +16,6 @@ image:
     alt: Screenshot of a floated image
     src: images/responsive-content-feature
     title: Floating responsive image
-title: Render image
-subtitle: Responsive image with caption and lightbox option
-description: Floating responsive images
 weight: 500
 ---
 

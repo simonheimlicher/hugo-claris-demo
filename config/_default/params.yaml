@@ -6,7 +6,7 @@ mainSections:
 header:
   logo:
     src: images/logo
-    height: 96
+    height: 80
     # The logo or site title is a link.
     # Default: "/" in the current language
     # If you would like to link to a different page, provide the path of this page below.

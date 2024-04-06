@@ -1,8 +1,8 @@
 ---
 # clarisdebug: true
-subtitle: Responsive full-page image
-supertitle: Theme component
 title: Hero image
+supertitle: Theme component
+subtitle: Responsive full-page image
 author: Simon Heimlicher
 description: Responsive full-page hero image
 image:
