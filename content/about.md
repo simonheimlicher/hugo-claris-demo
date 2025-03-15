@@ -1,9 +1,6 @@
 ---
-aliases:
-- about-us
-- about-hugo
-- contact
-author: Hugo Authors
+# clarisdebug: true
+title: About
 date: "2019-02-28"
 description: Hugo, the world's fastest framework for building websites
 image:
@@ -13,12 +10,14 @@ image:
       Apache License 2.0, https://commons.wikimedia.org/w/index.php?curid=77552265'
     src: images/logo_of_hugo_the_static_website_generator
     title: Hugo - the world's fastest static site generator
-title: About
+aliases:
+- about-us
+- about-hugo
+- contact
+author: Hugo Authors
 ---
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-
-{{< claris/render-image src="images/Logo_of_Hugo" float=right >}}
 
 Hugo makes use of a variety of open source projects including:
 

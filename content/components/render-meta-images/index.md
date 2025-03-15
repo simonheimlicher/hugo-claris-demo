@@ -1,7 +1,7 @@
 ---
 # clarisdebug: true
-# supertitle: Theme component
 title: Render meta images
+supertitle: Theme component
 subtitle: Render images from meta data
 image:
   feature:

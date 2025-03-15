@@ -17,7 +17,26 @@
 [[main]]
   name = "Components"
   url = "components/"
+  identifier = "components"
   weight = -400
+
+[[main]]
+  parent = "components"
+  name = "Overview"
+  url = "components/"
+  weight = 100
+
+[[main]]
+  parent = "components"
+  name = "Render image"
+  url = "components/render-image/"
+  weight = 400
+
+[[main]]
+  parent = "components"
+  name = "Feature image"
+  url = "components/feature-image-jpeg/"
+  weight = 800
 
 [[main]]
   name = "About"
@@ -27,15 +46,15 @@
 # Submenus are done this way: parent -> identifier
 [[main]]
   name = "Links"
-  identifier = "Links"
+  identifier = "links"
   url = "links/"
   weight = -100
 [[main]]
-  parent = "Links"
+  parent = "links"
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/simonheimlicher"
 [[main]]
-  parent = "Links"
+  parent = "links"
   name = "Twitter"
   url = "https://twitter.com/simonheimlicher"
 

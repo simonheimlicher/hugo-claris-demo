@@ -7,9 +7,6 @@
       "path": "config"
     },
     {
-      "path": "i18n"
-    },
-    {
       "path": "."
     }
   ],

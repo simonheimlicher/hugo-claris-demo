@@ -11,6 +11,8 @@ build:
   # `is-build-environment production` returns true
   buildStats:
     enable: true
+  # Avoid continuous rebuild due to `assets/jsconfig.json` changing
+  noJSConfigInAssets: true
 minify:
   _merge: deep
 markup:

@@ -1,5 +1,8 @@
 ---
 # clarisdebug: true
+supertitle: Quantum computing
+title: The race to quantum supremacy
+subtitle: A quick dive into one of today's hottest tech topics
 bestbefore: "2026-04-17"
 categories:
 - Hot topics
@@ -13,12 +16,10 @@ image:
     position: center 30%
     src: images/einstein
     title: Albert Einstein
-subtitle: A quick dive into one of today's hottest tech topics
 tags:
 - Quantum computing
 - QBits
 - Example content
-title: The race to quantum supremacy
 ---
 
 As we venture deeper into the 21st century, the world of technology continues to evolve at an unprecedented pace. From artificial intelligence to advanced robotics, innovations are shaping our daily lives in ways we never thought possible. Among these groundbreaking advancements, one particularly hot topic has captured the attention of the tech community: quantum computing.

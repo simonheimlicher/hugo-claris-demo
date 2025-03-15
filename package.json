@@ -1,40 +1,32 @@
 {
   "comments": {
     "dependencies": {
-      "@babel/runtime": "github.com/simonheimlicher/hugo-claris",
-      "@babel/runtime-corejs3": "github.com/simonheimlicher/hugo-claris",
-      "@fullhuman/postcss-purgecss": "github.com/simonheimlicher/hugo-claris",
-      "autoprefixer": "github.com/simonheimlicher/hugo-claris",
-      "core-js": "github.com/simonheimlicher/hugo-claris",
       "esbuild": "github.com/simonheimlicher/hugo-claris",
       "lazysizes": "github.com/simonheimlicher/hugo-claris",
       "medium-zoom": "github.com/simonheimlicher/hugo-claris",
-      "object-fit-images": "github.com/simonheimlicher/hugo-claris",
-      "postcss-cli": "github.com/simonheimlicher/hugo-claris",
-      "qrcode-svg": "github.com/simonheimlicher/hugo-claris",
-      "regenerator-runtime": "github.com/simonheimlicher/hugo-claris",
-      "web-vitals": "github.com/simonheimlicher/hugo-claris"
+      "posthog-js": "github.com/simonheimlicher/hugo-claris"
     },
     "devDependencies": {
-      "@babel/cli": "github.com/simonheimlicher/hugo-claris",
-      "@babel/core": "github.com/simonheimlicher/hugo-claris",
-      "@babel/plugin-transform-runtime": "github.com/simonheimlicher/hugo-claris",
-      "@babel/preset-env": "github.com/simonheimlicher/hugo-claris",
+      "@fullhuman/postcss-purgecss": "github.com/simonheimlicher/hugo-claris",
+      "autoprefixer": "github.com/simonheimlicher/hugo-claris",
       "postcss": "github.com/simonheimlicher/hugo-claris",
-      "postcss-custom-properties": "github.com/simonheimlicher/hugo-claris",
-      "postcss-object-fit-images": "github.com/simonheimlicher/hugo-claris"
+      "postcss-cli": "github.com/simonheimlicher/hugo-claris",
+      "postcss-prune-var": "github.com/simonheimlicher/hugo-claris",
+      "postcss-var-optimize": "github.com/simonheimlicher/hugo-claris"
     }
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
-    "autoprefixer": "^10.4.14",
     "esbuild": "^0.12.5",
     "lazysizes": "^5.3.2",
     "medium-zoom": "^1.0.6",
-    "postcss-cli": "^8.3.1"
+    "posthog-js": "^1.94.2"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^7.0.6",
     "postcss": "^8.4.23",
+    "postcss-cli": "^8.3.1",
     "postcss-prune-var": "^1.1.1",
     "postcss-var-optimize": "^8.1.0"
   },

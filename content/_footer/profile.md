@@ -10,4 +10,4 @@ This is the demo site to showcase the [Hugo Claris theme](https://github.com/sim
 
 Created by [Simon Heimlicher](https://simon.heimlicher.com/about/).
 
-See [components](components) for some of the flagship features of this theme, such as [drop caps](components/lede-initial) and [floating images](components/responsive-image) with responsive width.
+See [components](components) for some of the flagship features of this theme, such as [drop caps](components/lede-initial) and [floating images](components/render-image) with responsive width.

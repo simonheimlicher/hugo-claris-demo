@@ -1,6 +1,7 @@
 ---
-clarisdebug: true
+# clarisdebug: true
 title: Test image black/white
+supertitle: Test of theme component
 author: Simon Heimlicher
 description: Black and white test image
 weight: 500
