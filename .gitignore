@@ -12,3 +12,4 @@ frontmatter.json
 go.work
 /local/
 /state/
+/hugo_stats.json
