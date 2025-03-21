@@ -43,7 +43,6 @@ hidden:
     - private
     - hidden
 
-
 assets:
   styles:
     fonts:
@@ -104,7 +103,7 @@ image:
 responsive:
   breakpoints:
     width:
-      mobileMenu: 40rem
+      mobile_menu: 40rem
 robots:
   index: true
   indeximages: false
