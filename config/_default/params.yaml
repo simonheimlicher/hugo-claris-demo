@@ -103,7 +103,7 @@ image:
 responsive:
   breakpoints:
     width:
-      mobile_menu: 40rem
+      mobile_menu: 50rem
 robots:
   index: true
   indeximages: false
