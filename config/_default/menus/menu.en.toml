@@ -30,13 +30,19 @@
   parent = "components"
   name = "Render image"
   url = "components/render-image/"
-  weight = 400
+  weight = 110
 
 [[main]]
   parent = "components"
   name = "Feature image"
   url = "components/feature-image-jpeg/"
-  weight = 800
+  weight = 120
+
+[[main]]
+  parent = "components"
+  name = "Hero image"
+  url = "components/hero-image/"
+  weight = 130
 
 [[main]]
   name = "About"
