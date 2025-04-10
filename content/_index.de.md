@@ -1,4 +1,5 @@
 ---
+# clarisdebug: true
 subtitle: Ein Portfolio-Theme für Hugo
 supertitle: Hugo Theme
 title: Claris

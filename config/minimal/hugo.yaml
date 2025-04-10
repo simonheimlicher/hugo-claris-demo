@@ -1,0 +1,27 @@
+# Define a minimal subset of content files to be used for development
+module:
+  mounts:
+    - source: content
+      target: content
+      includeFiles:
+        - "/*index.md"
+    - source: content/images
+      target: content/images
+    # - source: content/technology
+    #   target: content/technology
+    # - source: content/components/hero-image
+    #   target: content/components/hero-image
+    # - source: content/components/feature-image
+    #   target: content/components/feature-image
+    # - source: content/_footer
+    #   target: content/_footer
+    #   includeFiles:
+    #     - '**/*index.md'
+    #     - '**/profile.md'
+    #     - recent-articles_post.md
+    #     - recent-articles_technology.md
+
+disableKinds:
+  - RSS
+  - taxonomy
+  - term

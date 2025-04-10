@@ -1,8 +1,8 @@
 en:
   LanguageName: English
-  languageCode: en-us
+  languageCode: en-US
   weight: 1
 de:
   LanguageName: Deutsch
-  languageCode: de-ch
+  languageCode: de-CH
   weight: 2
