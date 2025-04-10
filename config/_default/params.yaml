@@ -78,10 +78,15 @@ image:
     - images/sh.com_site_thumbnail_1200x675.png
     - images/sh.com_site_thumbnail_1200x1200.png
 
-responsive:
-  breakpoints:
-    width:
-      mobile_menu: 50rem
+social:
+  twitter:
+    id: simonheimlicher
+  github:
+    id: simonheimlicher
+  linkedin:
+    id: simonheimlicher
+  stackoverflow:
+    id: 617559/simon-heimlicher
 
 #
 # S E C T I O N S
@@ -109,6 +114,15 @@ taxonomyMaxYears: 5
 
 # Limit recent articles to only include articles from the last x years
 recentMaxYears: 5
+
+# Hidden pages:
+# Add robots: noindex, nofollow to meta
+# No OpenGraph meta
+# No Schema.org (JSON+LD) meta
+hidden:
+  # Sections within which all pages will be hidden
+  sections: [_error]
+  pathelements: [hidden, confidential]
 
 # The home page can render multiple pages in a section specified below
 # home:
@@ -209,14 +223,10 @@ typography:
   initialWordLengthMin: 3
   initialWordsIgnore: [the, and, der, die, das, und]
 
-# Hidden pages:
-# Add robots: noindex, nofollow to meta
-# No OpenGraph meta
-# No Schema.org (JSON+LD) meta
-hidden:
-  # Sections within which all pages will be hidden
-  sections: [_error]
-  pathelements: [hidden, confidential]
+responsive:
+  breakpoints:
+    width:
+      mobile_menu: 50rem
 
 robots:
   # configuration of robots tag in head of individual pages
