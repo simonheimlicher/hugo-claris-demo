@@ -4,10 +4,13 @@ baseURL: /
 defaultContentLanguage: en
 languages:
   en:
+    LanguageName: English
     languageCode: en-US
-    languageDirection: ltr
-    languageName: English
     weight: 1
+  de:
+    LanguageName: Deutsch
+    languageCode: de-CH
+    weight: 2
 
 timeout: 600s
 security:
