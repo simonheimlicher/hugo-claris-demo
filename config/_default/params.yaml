@@ -142,8 +142,6 @@ sidebarTaxonomies:
   - tags
   - categories
 
-# Show share buttons on each post. Also available in each post's front matter.
-showShare: false
 
 #
 # S T Y L E S  and  S C R I P T S
@@ -152,12 +150,13 @@ showShare: false
 assets:
   styles:
     fonts:
-      selfhosted: false
-      # Preload fonts to improve performance
-      # Note: Given that the CSS file (15kB) is about half the size of a web font (30kB),
-      # preloading fonts actually delays Firct Contentful Paint (FCP) and Largest Contentful Paint (LCP)
-      # because browsers will block rendering until the font is loaded.
-      preload: 0
+      selfhosted: true
+      # Preload fonts to improve performance Note: Given that the CSS file
+      # (15kB) is about half the size of a web font (30kB), preloading fonts
+      # might delay Firct Contentful Paint (FCP) and Largest Contentful Paint
+      # (LCP) because browsers will block rendering until the fonts designated
+      # to be preloaded are, indeed, loaded.
+      preload: 1
       type:
         default: "sans"
         content: "sans"
