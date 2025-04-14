@@ -156,7 +156,7 @@ assets:
       # might delay Firct Contentful Paint (FCP) and Largest Contentful Paint
       # (LCP) because browsers will block rendering until the fonts designated
       # to be preloaded are, indeed, loaded.
-      preload: 1
+      preload: 0
       type:
         default: "sans"
         content: "sans"
