@@ -5,6 +5,8 @@ module:
       target: content
       includeFiles:
         - '/*index.md'
+    - source: content/about
+      target: content/about
     - source: content/images
       target: content/images
     - source: content/technology
