@@ -28,13 +28,6 @@ website:
   logo:
     src: site-meta/claris-logo.svg
     alt: "Hugo Claris theme logo"
-  profile:
-    headline: About Hugo Claris
-    text: |
-      Hugo Claris is a responsive Hugo theme crafted for personal websites and
-      blogs, focusing on readability, accessibility, and exceptional typography.
-    link: Hugo Claris
-    url: about
 
 siteAuthor: Simon Heimlicher
 authors:
@@ -46,6 +39,12 @@ authors:
     # Only use the part after `HUGO_CLARIS_`
     email: AUTHOR_EMAIL
     name: Simon Heimlicher
+
+  hugo-authors:
+    last_name: Authors
+    first_name: Hugo
+    name: Hugo Authors
+    profilepage: about
 
 masthead:
   # The wordmark is the text that appears in the masthead
