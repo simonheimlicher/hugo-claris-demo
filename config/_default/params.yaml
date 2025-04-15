@@ -224,7 +224,7 @@ typography:
 responsive:
   breakpoints:
     width:
-      mobile_menu: 50rem
+      mobile_menu: 56rem
 
 robots:
   # configuration of robots tag in head of individual pages
