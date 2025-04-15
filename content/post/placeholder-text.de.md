@@ -1,12 +1,11 @@
 ---
 author: Hugo Authors
 date: "2019-03-09"
-description: Lorem Ipsum Dolor Si Amet
 tags:
 - Markdown
-- Beispielinhalt
+- Example content
 categories:
-- Thema
+- Theme
 title: Platzhaltertext
 ---
 
