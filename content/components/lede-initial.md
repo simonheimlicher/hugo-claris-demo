@@ -5,7 +5,7 @@ title: Lede initial
 
 On a page that begins with at least `typography.plainParagraphsMin`={{< param typography.PlainParagraphsMin >}} regular paragraphs, the first paragraph is displayed as a lede. If the second pararaph is at least `typography.initialParaMinLength`={{< param typography.InitialParaMinLength >}} characters long, it will start with a large initial.
 
-This can also be accomplished by wrapping the any two paragraphs in the `lede-initial` shortcode. The shortcode renders the lede independently of the number of paragraphs. If there is a second paragraph, it renders the large initial independently of its length.
+This can also be accomplished by wrapping any two paragraphs in the `lede-initial` shortcode. The shortcode renders the lede independently of the number of paragraphs. If there is a second paragraph, it renders the large initial independently of its length.
 
 ```markdown
 {{</* lede-initial */>}}
