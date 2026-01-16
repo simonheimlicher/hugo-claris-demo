@@ -1,8 +1,10 @@
 module github.com/simonheimlicher/hugo-claris-demo
 
-go 1.20
+go 1.21
+
+toolchain go1.24.11
 
 require (
-	github.com/simonheimlicher/claris-resources v0.0.0-20250421134951-62394c76a325 // indirect
-	github.com/simonheimlicher/hugo-claris v0.0.0-20250514120040-a42b4ee1f429 // indirect
+	github.com/simonheimlicher/claris-resources v0.0.0-20251231131451-998b3a810dd9 // indirect
+	github.com/simonheimlicher/hugo-claris v0.0.0-20260101185534-5c151a6c8887 // indirect
 )
