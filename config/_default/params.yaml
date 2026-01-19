@@ -5,7 +5,7 @@ claris:
 
 # As a value for canonicalBaseURL can be set in the 'Site' configuration object
 #  but not retrieved from site.CanonicalBaseURL, we set it here in 'site.Params'
-canonicalBaseURL: "https://claris.heimlicher.com/"  # Include trailing slash
+canonicalBaseURL: "https://claris.heimlicher.com/" # Include trailing slash
 
 website:
   name: Hugo Claris Showcase
@@ -141,7 +141,6 @@ sidebarTaxonomies:
   - tags
   - categories
 
-
 #
 # S T Y L E S  and  S C R I P T S
 #
@@ -179,19 +178,6 @@ assets:
       fluid_scale_digits: null
 
   scripts:
-    bundles:
-      - base:
-          target: body
-          type: inline
-      - enhanced:
-          target: body
-          type: defer
-          priority: auto
-      - optional:
-          target: body
-          type: defer
-          priority: low
-
     optional:
       # To enable the `Medium.com`-like zoom effect on responsive images,
       # add the argument `lightbox` when calling the shortcode `responsive-image`
