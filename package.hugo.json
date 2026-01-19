@@ -1,4 +1,38 @@
 {
-  "name": "hugo-claris-demo",
-  "version": "0.1.0"
+  "comments": {
+    "dependencies": {
+      "autoprefixer": "project",
+      "lazysizes": "github.com/simonheimlicher/hugo-claris",
+      "medium-zoom": "project",
+      "posthog-js": "project"
+    },
+    "devDependencies": {
+      "@fullhuman/postcss-purgecss": "project",
+      "autoprefixer": "project",
+      "postcss": "github.com/simonheimlicher/hugo-claris",
+      "postcss-cli": "project",
+      "postcss-prune-var": "project",
+      "postcss-var-optimize": "project"
+    }
+  },
+  "dependencies": {
+    "posthog-js": "^1.113.2"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.51.4"
+  },
+  "name": "claris.heimlicher.com",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "dotenvx run -- env HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) --gc --minify",
+    "build:workspace:devel": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) --gc",
+    "build:workspace:stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) --gc",
+    "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.main.work HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) --gc --minify",
+    "clean": "rm -rf public resources/_gen",
+    "devel": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) server --port=1313 --disableFastRender",
+    "stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) server --port=1314 --disableFastRender",
+    "prod": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.main.work HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) server --port=1315 --disableFastRender",
+    "rebuild:workspace": "npm run clean && npm run build:workspace",
+    "mod-pack:devel": "HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) mod npm pack"
+  }
 }
