@@ -1,7 +1,6 @@
 title: Site for Hugo Theme Claris
 baseURL: /
 
-defaultContentLanguage: en
 languages:
   en:
     LanguageName: English
@@ -12,86 +11,18 @@ languages:
     languageCode: de-CH
     weight: 2
 
-enableRobotsTXT: true
 disableAliases: true
 
-build:
-  # Write statistics to enable post-processing of CSS
-  writeStats: true
-
-timeout: 300s
-
-ignoreFiles:
-  - \.DS_Store$
-  - \.vscode$
-  - .*\.code-workspace$
-  - frontmatter\.json$
-
-# disableKinds:
-#   # - RSS
-#   # - taxonomy
-#   # - term
-#   # - page
-#   # - section
-#   # - RSS
-#   # - sitemap
-#   # - robotsTXT
-#   # - 404
-
-pagination.pagerSize: 20
+# Merge theme config
 markup:
   _merge: deep
-
-# Merge imaging options from theme
 imaging:
   _merge: deep
-
-# Merge security from theme, e.g., for asset pipeline
 security:
   _merge: deep
-
-# Merge minify from theme, e.g., for asset pipeline
 minify:
   _merge: deep
 
-# Ensure that the image cache is in the cache directory, not `resources/_gen`
-# https://gohugo.io/host-and-deploy/host-on-github-pages/
-caches:
-  images:
-    dir: :cacheDir/images
-
-# The only purpose of mounting Hugo's default directories below
-# is to filter `.DS_Store` files
-# NOTE: If using excludeFiles, these files are also not available for .Resources.Get
 module:
   imports:
     - path: github.com/simonheimlicher/hugo-claris
-
-  mounts:
-    - source: assets
-      target: assets
-      excludeFiles:
-        - .DS_Store
-    - source: data
-      target: data
-      excludeFiles:
-        - .DS_Store
-    - source: static
-      target: static
-      excludeFiles:
-        - .DS_Store
-    - source: i18n
-      target: i18n
-      excludeFiles:
-        - .DS_Store
-    # NOTE: Avoid mounting `content` as this makes it impossible
-    # to override the path with `--contentDir`
-    # - source: content
-    #   target: content
-    #   excludeFiles:
-    #     - .DS_Store
-
-taxonomies:
-  category: categories
-  tag: tags
-  series: series

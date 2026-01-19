@@ -1,22 +1,12 @@
-# If you would like to get hints as to how to enable additional features,
-# set `claris.hints` to `true`
-claris:
-  hints: true
-
-# As a value for canonicalBaseURL can be set in the 'Site' configuration object
-#  but not retrieved from site.CanonicalBaseURL, we set it here in 'site.Params'
-canonicalBaseURL: "https://claris.heimlicher.com/" # Include trailing slash
+canonicalBaseURL: "https://claris.heimlicher.com/"
 
 website:
   name: Hugo Claris Showcase
   tagline: Fluid portfolio and blog theme
-  # NOTE: The description of the home page is taken from the home page's params
   description: |
     Hugo Claris is a fluid and responsive theme for Hugo, designed for personal
     websites and blogs. It emphasizes readability, accessibility, and
     exceptional typography.
-  # The year when this website was created, this value is used in the copyright
-  # notice of the footer.
   established: 2016
   profile:
     headline: About Hugo Claris
@@ -34,12 +24,8 @@ authors:
   simon-heimlicher:
     last_name: Heimlicher
     first_name: Simon
-    # Email address is set via environment variable `HUGO_CLARIS_AUTHOR_EMAIL`
-    # Note: `HUGO_CLARIS_` is the prefix of the environment variable
-    # Only use the part after `HUGO_CLARIS_`
     email: AUTHOR_EMAIL
     name: Simon Heimlicher
-
   hugo-authors:
     last_name: Authors
     first_name: Hugo
@@ -47,35 +33,7 @@ authors:
     profilepage: about
 
 masthead:
-  # The wordmark is the text that appears in the masthead
   wordmark: Hugo Claris
-  # The masthead contains a logo. It defaults to the logo of the website, which is defined under the `website` section.
-  # If you would like to use a different logo, provide the path of this logo below.
-  logo:
-    src: site-meta/claris-logo.svg
-    alt: "Hugo Claris theme logo"
-  # The masthead contains a link
-  # Default: "/" in the current language
-  # If you would like to link to a different page, provide the path of this page below.
-  # For example: if you would like the logo to link to `/post`, you would use:
-  # linkpath: /post
-
-meta:
-  favicon:
-    # Favicons will be added to the <head> element if they exist in the `static` directory
-    # If your favicons live in a sub directory, set the path prefix below
-    # If your icons are in `static/icons/`, you would set `meta.favicon.pathprefix = "icons"`
-    # The pathprefix also determines the path at which the icons will be published
-    pathprefix: "site-meta"
-
-  headline:
-    targetlength: [50, 60]
-
-image:
-  thumbnail:
-    - images/sh.com_site_thumbnail_1200x627.png
-    - images/sh.com_site_thumbnail_1200x675.png
-    - images/sh.com_site_thumbnail_1200x1200.png
 
 social:
   twitter:
@@ -87,125 +45,31 @@ social:
   stackoverflow:
     id: 617559/simon-heimlicher
 
-#
-# S E C T I O N S
-#
-
-# Main sections:
-# These are the top-level directories where your articles are located
-# See config details here https://gohugo.io/functions/where/#mainsections
-# Note: articles in these sections are styled differently:
-# - The first paragraph is automatically treated as the lede
-# - A drop cap is added to the second paragraph
 mainSections:
   - post
   - technology
 
-# Show a note indicating that an article is outdated after x years
-outdatedAfterYears: 5
-# Define sections whose content expires and should be flagged with a note
-# after .Params.outdatedAfterYears or after their .Params.bestbefore date
 ephemeralSections:
   - technology
 
-# Limit tags and categories to only include articles from the last x years
-taxonomyMaxYears: 5
-
-# Limit recent articles to only include articles from the last x years
-recentMaxYears: 5
-
-# Hidden pages:
-# Add robots: noindex, nofollow to meta
-# No OpenGraph meta
-# No Schema.org (JSON+LD) meta
-hidden:
-  # Sections within which all pages will be hidden
-  sections: [_error]
-  pathelements: [hidden, confidential]
-
-# The home page can render multiple pages in a section specified below
-# home:
-#   section: _home
-
-# The footer can render multiple pages in a section specified below
 footer:
   section: _footer
-  recentarticles: 3
   social:
     - linkedin
     - twitter
     - github
 
-# Taxonomies to render in sidebar
 sidebarTaxonomies:
   - tags
   - categories
-
-#
-# S T Y L E S  and  S C R I P T S
-#
 
 assets:
   styles:
     fonts:
       selfhosted: true
-      # Preload fonts to improve performance Note: Given that the CSS file
-      # (15kB) is about half the size of a web font (30kB), preloading fonts
-      # might delay Firct Contentful Paint (FCP) and Largest Contentful Paint
-      # (LCP) because browsers will block rendering until the fonts designated
-      # to be preloaded are, indeed, loaded.
-      preload: 0
-      type:
-        default: "sans"
-        content: "sans"
-        article: "serif"
-        code: "mono"
-        heading: "inherit"
-        meta: "sans"
-      family:
-        sans: "Source Sans 3"
-        serif: "Alegreya"
-        mono: "DM Mono"
-      # If you want to serve font files from the `static` directory instead of
-      # relying on the font files provided by the Google Fonts service:
-      # 1 .Download the font files using [google-webfonts-helper](https://gwfh.mranftl.com/fonts)
-      # 2. Then add the fonts to the `static` directory under the path that is expected
-      #    by the corresponding file in `assets/styles/claris/fonts/...`
-      # 3. Enable self hosted fonts by setting `style.fonts.selfhosted = true` below
-      # selfhosted: true
-      geometric_scale_factor: null
-      fractional_scale_denominator: null
-      fluid_scale_digits: null
-
   scripts:
     optional:
-      # To enable the `Medium.com`-like zoom effect on responsive images,
-      # add the argument `lightbox` when calling the shortcode `responsive-image`
-      # and set `assets.scripts.optional.mediumzoom: true`
       mediumzoom: true
-      # To enable PostHog Analytics, configure the environments, host and key below
-      # posthog:
-      #   environments: [production, prod]
-      #   key: <your key>
-      #   host: https://api.posthog.com
-      #   # host: https://eu.posthog.com
-
-  images:
-    # Feature image at top of article and section pages
-    feature:
-      # Aspect ratio: bounded by minimum and maximum
-      ratio:
-        min: 2
-        max: 4
-
-typography:
-  plainParagraphsMin: 3
-  initialParaMinLength: 320
-  initialWordsWordsMin: 5
-  initialWordsCharactersMin: 10
-  initialWordsCharactersMax: 25
-  initialWordLengthMin: 3
-  initialWordsIgnore: [the, and, der, die, das, und]
 
 responsive:
   breakpoints:
@@ -213,31 +77,6 @@ responsive:
       mobile_menu: 56rem
 
 robots:
-  # configuration of robots tag in head of individual pages
   index: true
   indeximages: true
   follow: true
-  # Sections to be listed in robots.txt as being excluded from indexing
-  # CAUTION: This will cause attackers to look at these sections in particular,
-  # so do not use this parameter to hide a private section
-  # robotsTxtDisallowSections: [_error]
-
-# Enforce dark or light scheme irrespective of system settings of user
-# You cannot enforce both schemes at the same time. i.e by enforcing one scheme,
-# you prioritize it over the other (by setting it to true).
-# The color scheme toggle UI will remain in place. That way, if a user prefers
-# the other color scheme, they can have their way.
-# enforceLightMode: false
-# enforceDarkMode: false
-
-# Maximum number of recent articles.
-numberOfRecentArticles: 3
-
-# Maximum number of featured articles.
-numberOfFeaturedArticles: 3
-
-# Maximum number of related articles.
-numberOfRelatedArticles: 5
-
-# Date format. Checkout https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for details.
-# dateFormat: "2006-01-02" # Default to "Jan 2, 2006".
